@@ -1,0 +1,6 @@
+INSERT INTO empresa VALUES (100201234, 'PerroLandia', 'Cra 4 #20-00', 'perrolandia@perroland.co') 
+INSERT INTO persona VALUES (1000622841, 'David Saldarriaga', 'davidsaldarriaga.pardo@hotmail.com', '12-12-2001')
+INSERT INTO telefono (n_ext, n_numero, fk_persona) VALUES (57, 3115116064, 1000622841)
+INSERT INTO telefono (n_ext, n_numero, fk_empresa) VALUES (57, 3320142514, 100201234)
+INSERT INTO producto VALUES ('Comida para perros 10kg', 'Comida escencial para su mascota canina', '100100.00', 'producto', 100201234)
+INSERT INTO venta VALUES (2, 1, 1000622841)
