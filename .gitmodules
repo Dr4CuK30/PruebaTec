@@ -1,0 +1,4 @@
+[submodule "ventas-api"]
+	url = https://github.com/Dr4CuK30/VentasApi
+[submodule "VentasApp"]
+	url = https://github.com/Dr4CuK30/VentasApp
