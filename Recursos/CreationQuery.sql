@@ -52,7 +52,7 @@ SELECT V.pk_id AS id,
        PR.v_nombre AS producto, 
        PR.v_descripcion AS descripcion, 
        V.n_cantidad AS cantidad,
-       v.f_fecha AS fecha 
+       v.f_fecha AS fecha,
        PR.e_tipo as tipo, 
        FORMAT(V.n_cantidad * PR.m_precio,'C','En-Us') AS valor_total, 
        PE.v_nombre AS comprador 
